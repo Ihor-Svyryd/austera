@@ -18,10 +18,15 @@
         <header>
             <!-- Top menu -->
             <div class="row no-gutters header__menu">
-                <div class="col-md-3">
+                <div class="col-3">
                     <a href="#"><img src="img/Logo.png" alt="Logo" class="header__logo"></a>
                 </div>
-                <div class="col-md-9 d-flex flex-row-reverse">
+                <div class="col-9 d-flex flex-row-reverse">
+                    <div class="menu__icon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                    </div>
                     <ul class="header__navigations p-2">
                         <li><a href="#" class="menu__items">Homepage</a></li>
                         <li><a href="#" class="menu__items">Services</a></li>
@@ -33,7 +38,7 @@
             </div>
             <!-- Intro -->
             <div class="intro row no-gutters">
-                <div class="col-12">
+                <div class="col-12 all__intro">
                     <h1 class="intro__title"><span>Austera</span> is simple PSD template</h1>
                     <p class="intro__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                     <a class="intro__btn" href="#">Learn more</a>
@@ -47,28 +52,28 @@
             <section>
                 <h2 class="services_title">Our services</h2>
                 <div class="row no-gutters services">
-                    <div class="col-3 service">
+                    <div class="col-md-3 service">
                         <img src="img/service_1.png" alt="service_icon" class="service__img">
                         <h3 class="service__title">Responsive design</h3>
                         <p class="service__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                             molestie purus a felis condimentum
                             molestie. </p>
                     </div>
-                    <div class="col-3 service">
+                    <div class="col-md-3 service">
                         <img src="img/service_2.png" alt="service_icon" class="service__img">
                         <h3 class="service__title">Endless Security</h3>
                         <p class="service__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                             molestie purus a felis condimentum
                             molestie. </p>
                     </div>
-                    <div class="col-3 service">
+                    <div class="col-md-3 service">
                         <img src="img/service_3.png" alt="service_icon" class="service__img">
                         <h3 class="service__title">Incredible features</h3>
                         <p class="service__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                             molestie purus a felis condimentum
                             molestie. </p>
                     </div>
-                    <div class="col-3 service">
+                    <div class="col-md-3 service">
                         <img src="img/service_4.png" alt="service_icon" class="service__img">
                         <h3 class="service__title">Fresh ideas</h3>
                         <p class="service__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -80,26 +85,26 @@
                 </div>
                 <!-- Notebook text -->
                 <div class="row no-gutters all__notebook">
-                    <div class="col-6 notebook__text">
-                        <h3 class="notebook__title">Lorem ipsum dolor sit amet</h3>
-                        <p class="notebook__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Quisque
-                            molestie purus a felis condimentum molestie. Etiam a ullamcorper odio. Phasellus ipsum
-                            lorem,
-                            finibus semper sollicitudin ac, varius ut velit. Maecenas hendrerit ac ligula eu ultrices.
-                        </p>
-                        <a href="#" class="notebook__btn">Show more</a>
+                        <div class="col-md-6 notebook__text">
+                            <h3 class="notebook__title">Lorem ipsum dolor sit amet</h3>
+                            <p class="notebook__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque
+                                molestie purus a felis condimentum molestie. Etiam a ullamcorper odio. Phasellus ipsum
+                                lorem,
+                                finibus semper sollicitudin ac, varius ut velit. Maecenas hendrerit ac ligula eu ultrices.
+                            </p>
+                            <a href="#" class="notebook__btn">Show more</a>
+                        </div>
+                        <!-- Notebook image -->
+                        <div class="col-md-6" class="notebook">
+                            <img src="img/notebook.png" alt="notebook" class="notebook__img">
+                        </div>
                     </div>
-                    <!-- Notebook image -->
-                    <div class="col-6" class="notebook">
-                        <img src="img/notebook.png" alt="notebook" class="notebook__img">
-                    </div>
-                </div>
                 <div class="row no-gutters all_camera">
-                    <div class="col-6" class="camera">
+                    <div class="col-md-6" class="camera">
                         <img src="img/camera.png" alt="camera" class="camera__img">
                     </div>
-                    <div class="col-6 camera__text">
+                    <div class="col-md-6 camera__text">
                         <h3 class="camera__title">Lorem ipsum dolor sit amet</h3>
                         <p class="camera__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                             molestie purus a felis condimentum molestie. Etiam a ullamcorper odio. Phasellus ipsum
@@ -114,10 +119,10 @@
     </div>
     <section class="man container-fluid">
         <div class="all__man row no-gutters">
-            <div class="col-6">
+            <div class="col-md-6">
                 <img src="img/man.jpg " alt="man" class="man__img">
             </div>
-            <div class="col-6 man__text">
+            <div class="col-md-6 man__text">
                 <h3 class="man__title">Lorem ipsum dolor sit amet</h3>
                 <p class="man__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                     molestie purus a felis condimentum molestie. Etiam a ullamcorper odio. Phasellus ipsum
@@ -130,16 +135,16 @@
     </section>
     <section class="gallery container-fluid">
         <div class="all__gallery row no-gutters">
-            <div class="col-3 gallery_img1">
+            <div class="col-md-3 gallery_img1">
                 <h4 class="gallery__text">Lorem ipsum dolor sit amet</h4>
             </div>
-            <div class="col-3 gallery_img2">
+            <div class="col-md-3 gallery_img2">
                 <h4 class="gallery__text">Nunc fringilla tortor urna</h4>
             </div>
-            <div class="col-3 gallery_img3">
+            <div class="col-md-3 gallery_img3">
                 <h4 class="gallery__text">Nulla pulvinar pulvinar est</h4>
             </div>
-            <div class="col-3 gallery_img4">
+            <div class="col-md-3 gallery_img4">
                 <h4 class="gallery__text">Fusce at diam condim</h4>
             </div>
         </div>
@@ -147,25 +152,25 @@
     <section class="team container">
         <div class="all__team row no-gutters">
             <h2 class="col-12 team__title">Check our<br><span>awesome team</span></h2>
-            <div class="col-3 single__team">
+            <div class="col-md-3 single__team">
                 <img src="img/team_1.png" alt="people" class="team__img">
                 <div class="team__name">John Doe</div>
                 <span class="team__position">Ceo&Founder</span>
                 <a href="#" class="team__btn">Check profile</a>
             </div>
-            <div class="col-3 single__team">
+            <div class="col-md-3 single__team">
                 <img src="img/team_2.png" alt="people" class="team__img">
                 <div class="team__name">Paul Kowalsy</div>
                 <span class="team__position">Ceo&Founder</span>
                 <a href="#" class="team__btn">Check profile</a>
             </div>
-            <div class="col-3 single__team">
+            <div class="col-md-3 single__team">
                 <img src="img/team_3.png" alt="people" class="team__img">
                 <div class="team__name">Emilly Williams</div>
                 <span class="team__position">Ceo&Founder</span>
                 <a href="#" class="team__btn">Check profile</a>
             </div>
-            <div class="col-3 single__team">
+            <div class="col-md-3 single__team">
                 <img src="img/team_4.png" alt="people" class="team__img">
                 <div class="team__name">Patricia Green</div>
                 <span class="team__position">Ceo&Founder</span>
@@ -175,8 +180,8 @@
     </section>
     <section class="form__bg container-fluid">
         <div class="container">
-            <div class="row no-gutters">
-                <div class="col-6">
+            <div class="row no-gutters all__form">
+                <div class="col-md-6">
                     <div class="contact">Contact with us</div>
                     <p class="adress">Marszalkowska Street 14/35 / Mazowieckie, Poland </p>
                     <p class="contact__data">Phone: <span>(+48) 604 234 091</span></p>
@@ -189,8 +194,8 @@
                         <li class="contact__icon5"><a href="#"><img src="img/icon_5.png" alt="icon"></a></li>
                     </ul>
                 </div>
-                <div class="col-6">
-                    <form action="#">
+                <div class="col-md-6">
+                    <form action="#" class="form__inputs">
                         <input type="text" name="login" placeholder="Your name">
                         <input type="email" name="email" placeholder="Your email">
                         <textarea name="textarea" id="tarea" placeholder="Your massedge"></textarea>
@@ -203,7 +208,7 @@
     <footer>
         <div class="container footer">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 footer__menu">
                     <ul>
                         <li><a href="#">Homepage</a></li>
                         <li><a href="#">Services</a></li>
@@ -211,7 +216,7 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 footer__text">
                     <p>Copyright ⓒ 2019. All rights reserved by MountTec</p>
                 </div>
             </div>
